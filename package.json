@@ -1,0 +1,15 @@
+{
+  "name": "baitestvng",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gbayfrank/baitestvng.git",
+  "author": "gbayfrank <vuducthao2020@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "uikit": "^3.9.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.7.1"
+  }
+}
