@@ -1,6 +1,14 @@
 {
   "name": "baitestvng",
   "version": "1.0.0",
+  "description": "Gbay Frank Webpack UIKit app template",
+  "scripts": {
+    "build": "webpack --mode=development --progress",
+    "production": "webpack --mode=production --progress --devtool=source-maps",
+    "watch": "webpack --mode=development --watch",
+    "start": "webpack-dev-server --open --mode=development",
+    "clear": "del-cli dist"
+  },
   "main": "index.js",
   "repository": "https://github.com/gbayfrank/baitestvng.git",
   "author": "gbayfrank <vuducthao2020@gmail.com>",
@@ -9,7 +17,22 @@
     "uikit": "^3.9.4"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "del-cli": "^4.0.1",
+    "html-loader": "^3.0.1",
+    "image-webpack-loader": "^8.0.1",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "svg-url-loader": "^7.1.1",
+    "terser-webpack-plugin": "^5.3.0",
     "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.1"
   }
 }
