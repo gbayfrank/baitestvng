@@ -9,7 +9,6 @@
     "start": "webpack-dev-server --open --mode=development",
     "clear": "del-cli dist"
   },
-  "main": "index.js",
   "repository": "https://github.com/gbayfrank/baitestvng.git",
   "author": "gbayfrank <vuducthao2020@gmail.com>",
   "license": "MIT",

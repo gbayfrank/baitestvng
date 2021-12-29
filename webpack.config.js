@@ -5,6 +5,7 @@ const OptimisizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin              = require('terser-webpack-plugin');
 const CopyPlugin                = require('copy-webpack-plugin');
 const ImageMinPlugin            = require('imagemin-webpack-plugin').default;
+const { watch } = require('fs');
 
 /**
  * Base webpack configuration
@@ -15,6 +16,7 @@ const ImageMinPlugin            = require('imagemin-webpack-plugin').default;
  */
 
 module.exports = (env, argv) => {
+    
     let isProduction = (argv.mode = 'production');
 
     let config = {
@@ -53,7 +55,7 @@ module.exports = (env, argv) => {
             // copy static assets directory
             new CopyPlugin({
                 patterns: [
-                    {from: 'static', to: 'static'},
+                    // {from: 'static', to: 'static'},
                     {from: 'index.html', to: 'index.html'},
                 ]
             }),
@@ -141,7 +143,18 @@ module.exports = (env, argv) => {
                     loader: "svg-url-loader"
                 },
             ]
-        }
+        },
+
+        // config dev server watch
+        devServer: {
+            static: {
+              directory: path.join(__dirname, 'dist'),
+              watch: true,
+            },
+            watchFiles: ['development/*.html', 'development/**/*'],
+            compress: true,
+            port: 8888,
+        },
     };
 
     // PRODUCTION ONLY configuration
