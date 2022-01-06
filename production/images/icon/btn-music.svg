@@ -1,0 +1,23 @@
+<svg id="Music" xmlns="http://www.w3.org/2000/svg" width="38.32" height="38.281" viewBox="0 0 38.32 38.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #17203b;
+        fill-opacity: 0.3;
+        stroke: #cdbb90;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #cdbb90;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_2_copy_4" data-name="Rounded Rectangle 2 copy 4" class="cls-1" d="M1762.28,40.527a18.65,18.65,0,0,1,18.65,18.649h0a18.65,18.65,0,0,1-37.3,0h0A18.65,18.65,0,0,1,1762.28,40.527Z" transform="translate(-1743.12 -40.031)"/>
+  <path id="Music-2" data-name="Music" class="cls-2" d="M1754.74,58.778h3.18V68.3h-3.18V58.778Zm3.97-8.729h3.18V68.3h-3.18V50.049Zm3.97,4.762h3.17V68.3h-3.17V54.811Zm3.97,3.175h3.17V68.3h-3.17V57.985Z" transform="translate(-1743.12 -40.031)"/>
+</svg>

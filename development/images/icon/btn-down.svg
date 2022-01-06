@@ -1,0 +1,24 @@
+<svg id="DOWN" xmlns="http://www.w3.org/2000/svg" width="38.31" height="38.281" viewBox="0 0 38.31 38.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #17203b;
+        fill-opacity: 0.3;
+        stroke: #cdbb90;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #cdbb90;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_2_copy" data-name="Rounded Rectangle 2 copy" class="cls-1" d="M1626.37,40.527a18.65,18.65,0,0,1,18.65,18.649h0a18.645,18.645,0,1,1-37.29,0h0A18.641,18.641,0,0,1,1626.37,40.527Z" transform="translate(-1607.22 -40.031)"/>
+  <path class="cls-2" d="M1624.09,50v7.692h-2.76l5.34,6.977,5.33-6.977h-2.76V50h-5.15Z" transform="translate(-1607.22 -40.031)"/>
+  <path class="cls-2" d="M1618,65.991h18V68h-18V65.991Z" transform="translate(-1607.22 -40.031)"/>
+</svg>

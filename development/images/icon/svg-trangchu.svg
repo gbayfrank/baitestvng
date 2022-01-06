@@ -1,0 +1,38 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150.78" height="36.719" viewBox="0 0 150.78 36.719">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #664426;
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        fill: #0d0d1b;
+        opacity: 0.38;
+      }
+
+      .cls-4 {
+        font-size: 24px;
+        fill: #c7b58d;
+        font-family: Roboto;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#cdbb90"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="线框" class="cls-1">
+    <rect id="圆角矩形_979_拷贝" data-name="圆角矩形 979 拷贝" class="cls-2" x="0.5" y="2.625" width="149.78" height="31.5" rx="15.75" ry="15.75"/>
+    <circle id="椭圆_982" data-name="椭圆 982" class="cls-2" cx="44.23" cy="2.953" r="2.45"/>
+    <circle id="椭圆_982_拷贝" data-name="椭圆 982 拷贝" class="cls-2" cx="103.73" cy="33.766" r="2.45"/>
+  </g>
+  <rect id="底" class="cls-3" x="4" y="5.406" width="142.78" height="25.906" rx="12.95" ry="12.95"/>
+  <text id="Trang_chủ" data-name="Trang chủ" class="cls-4" transform="translate(38.733 24.303) scale(0.7)">Trang chủ</text>
+</svg>
